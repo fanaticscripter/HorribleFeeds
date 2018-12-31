@@ -7,7 +7,7 @@
 #     grep -Po '/shows/[^"]+' | \
 #     sed 's:$:/:' | \
 #     while read show_url; do \
-#         echo "('$show_url', $(curl -s https://horriblesubs.info$show_url | grep -Po '(?<=hs_showid = )\d+')),"
+#         echo "('$show_url', $(curl -sL https://horriblesubs.info$show_url | grep -Po '(?<=hs_showid = )\d+')),"
 #         sleep 1
 #     done
 KNOWN_SHOWS = [
