@@ -16,7 +16,7 @@ GET /<showid>/
     <name>HorribleSubs</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://your.domain/path/showid/"/>
-  <link ref="alternate" type="text/html" href="https://horriblesubs.info/shows/some-show/"/>
+  <link rel="alternate" type="text/html" href="https://horriblesubs.info/shows/some-show/"/>
   <generator uri="https://github.com/fanaticscripter/HorribleFeeds">HorribleFeeds</generator>
   <entry>
     <title>Some Show EP#</title>
@@ -45,7 +45,7 @@ GET /347/
     <name>HorribleSubs</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://your.domain/path/347/"/>
-  <link ref="alternate" type="text/html" href="https://horriblesubs.info/shows/one-piece/"/>
+  <link rel="alternate" type="text/html" href="https://horriblesubs.info/shows/one-piece/"/>
   <generator uri="https://github.com/fanaticscripter/HorribleFeeds">HorribleFeeds</generator>
   <entry>
     <title>One Piece 866</title>
