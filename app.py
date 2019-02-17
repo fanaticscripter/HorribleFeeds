@@ -92,6 +92,8 @@ def get_episodes(showid):
         date = label.select_one(".rls-date").text.strip()
         if date == "Today":
             date = arrow.now().to('US/Pacific').date()
+        elif date == "Yesterday":
+            date = arrow.now().to('US/Pacific').shift(days=-1).date()
         else:
             date = datetime.datetime.strptime(date, "%m/%d/%y").date()
         for span in label.select("span"):
